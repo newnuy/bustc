@@ -7,12 +7,13 @@
 </p>
 
 <p>
-当某成员处在暂离状态时，会以<span class="cgrey">浅灰色</span>显示。若某成员在这个半年拥有邀请码，则余额以<span class="cblue">皇家蓝</span>显示；若邀请码已被使用，则余额以<span class="cbrown">巧克力</span>显示。
+当某成员处在暂离状态时，会以<span class="cgrey">浅灰色</span>显示。若某成员拥有邀请码，则余额以<span class="cblue">皇家蓝</span>显示。若某成员距离自动离群的期限已不足2个月，则名字以<span class="cbrown">巧克力</span>显示。
 </p>
 
 <table>
     <caption>深圳B-USTC爱乒群2013年成员账户收支表</caption>
 
+    <!--table head-->
     <tr>
         <th width="48px"></th>
         <th width="28px"></th>
@@ -32,7 +33,7 @@
         <th width="28px">林德苗</th>
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td></td>
         <td>余</td>
         <td class="tright">  35.</td>
@@ -51,7 +52,7 @@
         <td class="tright">  36.</td>
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td>|<br />|<br />01-03<br />|</td>
         <td>入<br />球<br />餐<br />余</td>
         <td class="tright">    -<br />    -<br />    -<br /><span class="cblue">  35.</span></td>  <!--王玉珩-->
@@ -70,7 +71,7 @@
         <td class="tright">    -<br />    -<br />    -<br />  36.</td>  <!--林德苗-->
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td>|<br />|<br />01-12<br />|</td>
         <td>入<br />球<br />餐<br />余</td>
         <td class="tright">   0.<br />  15.<br />   0.<br /><span class="cblue">  20.</span></td>  <!--王玉珩-->
@@ -89,6 +90,7 @@
         <td class="tright">    -<br />    -<br />    -<br />  36.</td>  <!--林德苗-->
     </tr>
 
+    <!--table tail-->
     <tr>
         <th width="48px"></th>
         <th width="28px"></th>
@@ -98,11 +100,11 @@
         <th width="28px">顾　景</th>
         <th width="28px">李　君</th>
         <th width="28px">恽　文</th>
-        <th width="28px">岳玉涛</th>
+        <th width="28px" class="cbrown">岳玉涛</th>
         <th width="28px">吴　凡</th>
         <th width="28px">树金男</th>
         <th width="28px">胡　辰</th>
-        <th width="28px">林　立</th>
+        <th width="28px" class="cbrown">林　立</th>
         <th width="28px">王中飞</th>
         <th width="28px">李　斌</th>
         <th width="28px">林德苗</th>
@@ -116,10 +118,12 @@
 <table>
     <caption>深圳B-USTC爱乒群2013年总收支表</caption>
 
+    <!--table head-->
     <tr>
         <th width="48px"></th>
         <th width="48px">球出</th>
         <th width="48px">球入</th>
+        <th width="48px">卡余</th>
         <th width="48px">餐出</th>
         <th width="48px">餐入</th>
         <th width="96px">聚餐地点</th>
@@ -129,9 +133,10 @@
         <th width="48px">总余</th>
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td></td>
         <td></td>
+        <td class="tright cgrey">1496.</td>
         <td></td>
         <td></td>
         <td></td>
@@ -142,10 +147,11 @@
         <td class="tright"> 165.</td>
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td>01-03</td>
         <td class="tright">  48.</td>  <!--球出-->
         <td class="tright">  50.</td>  <!--球入-->
+        <td class="tright cgrey">1448.</td>  <!--卡余-->
         <td class="tright"> 171.</td>  <!--餐出-->
         <td class="tright"> 172.</td>  <!--餐入-->
         <td class="tright"> 必胜客</td>  <!--聚餐地点-->
@@ -155,10 +161,11 @@
         <td class="tright"> 168.</td>  <!--总余-->
     </tr>
 
-    <tr>
+    <tr onmouseover="this.bgColor='#EEE'" onmouseout="this.bgColor='#FFF'">
         <td>01-12</td>
         <td class="tright">  95.</td>  <!--球出-->
         <td class="tright"> 105.</td>  <!--球入-->
+        <td class="tright cgrey">1353.</td>  <!--卡余-->
         <td class="tright"> 197.</td>  <!--餐出-->
         <td class="tright"> 200.</td>  <!--餐入-->
         <td class="tright"> 丽兹披萨店</td>  <!--聚餐地点-->
@@ -166,6 +173,21 @@
         <td class="tright">   0.</td>  <!--另入-->
         <td class="tright"></td>       <!--另备注-->
         <td class="tright"> 181.</td>  <!--总余-->
+    </tr>
+
+    <!--table tail-->
+    <tr>
+        <th width="48px"></th>
+        <th width="48px">球出</th>
+        <th width="48px">球入</th>
+        <th width="48px">卡余</th>
+        <th width="48px">餐出</th>
+        <th width="48px">餐入</th>
+        <th width="96px">聚餐地点</th>
+        <th width="48px">另出</th>
+        <th width="48px">另入</th>
+        <th width="96px">另备注</th>
+        <th width="48px">总余</th>
     </tr>
 </table>
 [/dee]

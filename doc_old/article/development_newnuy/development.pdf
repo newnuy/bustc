@@ -1,0 +1,170 @@
+% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt]{article}
+\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+
+% Will Robertson's fontspec.sty can be used to simplify font choices.
+% To experiment, open /Applications/Font Book to examine the fonts provided on Mac OS X,
+% and change "Hoefler Text" to any of these choices.
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% For many users, the previous commands will be enough.
+% If you want to directly input Unicode, add an Input Menu or Keyboard to the menu bar 
+% using the International Panel in System Preferences.
+% Unicode must be typeset using a font containing the appropriate characters.
+% Remove the comment signs below for examples.
+
+% \newfontfamily{\A}{Geeza Pro}
+% \newfontfamily{\H}[Scale=0.9]{Lucida Grande}
+% \newfontfamily{\J}[Scale=0.85]{Osaka}
+
+% Here are some multilingual Unicode fonts: this is Arabic text: {\A السلام عليكم}, this is Hebrew: {\H שלום}, 
+% and here's some Japanese: {\J 今日は}.
+
+% by me
+\newfontfamily{\CM}{Monaco}
+\newfontfamily{\CZ}{Zapfino}
+\newfontfamily{\CS}{STSong}
+\newfontfamily{\CK}{STKaiti}
+\newfontfamily{\CF}{STFangsong}
+\newfontfamily{\CW}{WenQuanYiMicroHei}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\linespread{1.3}
+
+
+\title{深圳~B-USTC~爱乒群发展方向的思考}
+\author{\CZ newnuy}
+\date{\CS 2011年11月}                                           % Activate to display a given date or no date
+
+\begin{document}
+\CW
+\maketitle
+
+\CS
+
+\par 我毕业离校时，曾对一起参与科大乒乓球活动组织工作的同学和老师说，
+此去深圳，希望能够在深圳校友会做一些乒乓球活动的组织工作，
+延续我和科大乒乓之缘。
+\par 07-08~学年，科大~bbs~乒乓版极为兴盛而乒协开始衰落的一年，
+我有幸参与了乒乓版版务组的工作；09-10~学年，
+科大~bbs~乒乓版持续衰落而乒协百废俱兴的一年，
+我又有幸在乒协做了一些工作。先后两年站在科大乒乓的最前沿，
+与志同道合的朋友一起将乒乓版与乒协这两个完全不同性质的团体带向兴盛，
+同时更让我们体会到定位与运作一个乒乓球团体包含着很多深层次的东西。
+
+\section{\CW 乒乓版由盛转衰的思考}
+\par 07-08~学年的乒乓版为什么能发展到极为兴盛？而之后为什么会迅速衰落？
+\par 在~07-08~学年时，校内有相当一批水平相近的高手活跃着，
+（其实哪个时期都是）而当时的版务组，一年之内举办的实体的活动超过~6~次。
+通过活动，让各位高手彼此熟悉起来，高手周围又聚集起一批半高手和爱好者，
+而又进一步增加了~bbs~版面上的人气。
+\par 那一届的版务组离任后，一来由于相当数量的高手毕业，
+更重要的是后续的几届版务组不愿继续多办活动、
+在仅维持的一学期一次的版团赛上也不太上心，
+赛事组织很粗糙，于是乒乓版的影响力急剧下降。
+三年内，版团赛的参赛人数从近~40~人下降到~5~人。
+\par 一个没有经费、以网络承载的团体，
+如果没有稳定持续的活动，是不太可能兴盛的。
+这可能也是为什么很多~qq~群人数很多，但都在潜水的原因。
+
+\section{\CW 乒协由衰转盛的思考}
+\par 09-10~学年之前，乒协为校内绝大多数乒乓球爱好者所诟病，
+在~bbs~上吵到团委出面协调。于是推行了改革，
+同年就取得了会员数目翻番至~300~人的成绩。
+改革后运作乒协的核心策略无非有二：办好比赛、定期练球。
+定期练球的频度达到每周~4~次，并辅以教学活动和巡回指导甚至多球练习，
+成功将会员凝聚起来。相比之前的乒协每学期两三次的练球频度，
+无疑拥有更大的凝聚力。
+
+\section{\CW 乒乓版和乒协内在之异的思考}
+\par 运作乒乓版和乒协，看似都是通过活动，其实有所不同：
+\par 乒乓版没有经费，更像是精英团体，通过较多的比赛，容易将高手凝聚起来；
+\par 乒协有一定经费，是社团组织，则通过定期的练球，
+较易将想锻炼身体、学习乒乓的同学凝聚起来。
+\par 所以我们在办乒乓版的活动时，感觉规模有瓶颈，虽然高手都来了；
+我们在办乒协的活动时，感觉层次被限制，高手没有被真正聚合起来，
+虽然会员很多。或许，这正体现出这两个团体的局限性和可互补性。
+
+\section{\CW 神州网乒乓球活动困境的思考}
+\par 我怀着延续与科大乒乓之缘的想法，
+也在神州网组织过每月一次的校友乒乓球活动，
+但这个活动后来销声匿迹了。结合以往的经验加以总结，
+我觉得问题有二：一是每月一次频度太低，对于高手无意义，
+而且这么长的周期容易让人错过关注；第二个问题，
+也是最致命的是，一些参加活动的校友，
+根本动机是想借机认识成功校友，并非真正喜欢乒乓球。
+\par 问题一导致人数不足，问题二导致人数不稳定且越来越少。
+当然由于人数少，就引发了第三个问题，
+所有水平的人都在一个桌子上打，各自均不尽兴。
+\par 所以通过神州网的组织模式行不通；
+纯以~qq~群为载体又会像很多群一样，均在潜水。
+我也有与当时一起参与乒乓版和乒协工作的两位朋友探讨这个问题，
+我们三人比较一致的判断是：走乒乓版与乒协的混合模式。
+
+\section{\CW 关于定位与运作我们这个乒乓球团体的思考}
+\par 我们的首要问题在于：缺乏稳定的高手核心。
+当几位经常参加活动的球友有事时，活动就不是那么容易组织。
+\par 要解决这一问题，需要乒乓版的精英模式。
+我大一时完全不了解乒乓版，偶然地参与了乒乓版组织的一次比赛，
+而喜欢上了这一团体：那么多高手带我玩，成长得很快，
+各种聊天吃饭也很轻松愉快，让我增长许多对球、对器材的认识。
+现在深圳这边，有我们这几个活跃的群成员作为核心，
+由于都已工作，聚餐也应该压力不大。所以这一模式并不难实现。
+但是，由于深圳校友的人数相对于科大在校生而言太少，
+因此，需要适当接纳非科大校友，但必须是爱球懂球，
+又具有比较高素质的球友。当年的乒乓版，最受欢迎的核心高手中，
+小郑、冰峰、小青蛙等都是校外的，而如果没有他们，当年乒乓版也不会那么火。
+\par 我们现在的团体还很小，要保证活动能一直进行下去，需要壮大
+，来源可以有二：寻找更多的高手；或培养现在还不是高手的爱好者。
+前者理论上可行，但不能指望可以找到很多。
+另外，如果水平一般的爱好者此时加入我们，我们拒之门外肯定不合适，
+但让人家来了却没有水平相当的球友，也是变相将人家拒之门外。
+这就暴露出当前的另一个重大问题：缺乏后备力量。
+\par 解决之法，莫不如主动吸纳周围的爱好者，建立并培养第二梯队。
+每次活动，第一梯队内战、第二梯队内战，互不影响；
+另外，又可以由第一梯队的成员给第二梯队适当指导，
+也可以让分打打积分赛之类的。
+这种模式就是乒协采用的会员定期练球加教学活动的模式，
+事实证明，有些会员在此模式下成长很快。
+而乒乓版中其实也存在这一模式，那时小郑的女友、冰峰的女友，
+开始都是不大会打，慢慢成长到我也不一定能打过的第一梯队水平。
+\par 第二梯队的成员从何而来？校友、好友、同事、恋人、配偶等，
+只要爱球并想坚持打球，就都可以发展。
+深圳这边的工作习惯对身体不好，适当参加这种适合所有年龄的轻量级运动，
+我想还是有很多人愿意的，我在同事中随便问了下，好几位都愿意定期打打球。
+\par 前段时间大家也在群里探讨到，是应该以文化还是规则来发展这一团体。
+我们团体现在的状况使我们必须适当开放地发展她，
+而这适当开放，就最好存在一定的规则，
+来避免由于某些不恰当行为出现时的无据可依，哪怕是不成文的规则。
+\par 我也完全赞成我们这个小小的团体需要一种文化。
+然而这文化具体是什么，我还不确知。不过，
+纯纯粹粹地购置器材、爱惜器材、练球、比赛、谈球、以球交友，
+这就是一种文化的体现；恰如剑士之铸剑、拭剑、练剑、比剑、论剑、以剑会友。
+而剑士之初学剑，恐怕也不能感受剑道之博大精深；
+恰如我之初学Linux时，也完全不理解开源和分享的美妙；
+而我们的团体文化，何不伴随我们这个团体的成长而自然成长呢？
+\par 或许，简简单单的享受过程就是了，大家因球而相识相聚，
+本就是一种缘分和快乐。
+
+
+\end{document}

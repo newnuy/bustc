@@ -1248,3 +1248,8 @@ ol.commentlist li {
         padding-bottom:10px;
         border-top:#CCC 5px solid;
 }
+
+.i_center {
+        text-align:center;
+        font-family: 华文仿宋, 仿宋, 华文楷体, 楷体, STFangsong, FangSong, STKaiti, KaiTi, Tahoma, Arial, Helvetica, sans-serif;
+}

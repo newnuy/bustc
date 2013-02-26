@@ -1,0 +1,143 @@
+<!-- title: 群约定修订日志(Regulation Log) -->
+
+<p>
+本页面列出群约定重大修订的源代码日志。完整改动可以参看<a href="https://github.com/newnuy/bustc" target="_blank">所有文档的历史版本</a>。
+</p>
+
+<p>
+<a name="1.5.0">版本1.5.0的修订</a>：
+</p>
+<pre lang="diff" line="1">
+commit 794cf271ffdcd9dadaf5d091400921bc40ac38c3
+Author: newnuy <newnuy_7_newnuy.com>
+Date:   Wed Feb 20 17:47:43 2013 +0800
+
+    [regulation] 自动离群时间不再计算以正月初一为中心的31天, version 1.5.0
+
+diff --git a/com/pages/data/regulation.html b/com/pages/data/regulation.html
+index c53725a..c9d530d 100644
+--- a/com/pages/data/regulation.html
++++ b/com/pages/data/regulation.html
+@@ -3,7 +3,7 @@
+ <blockquote>
+ <p>
+ 内容：深圳B-USTC爱乒群约定<br />
+-版本：1.4.0<br />
++版本：1.5.0<br />
+ 来源：群管理员组拟，全体群成员表决通过<br />
+ 创建：2011年11月11日<br />
+ 修订：2013年02月20日<br />
+@@ -127,7 +127,7 @@
+ 若出现严重或多次违反群约定，或损害其他群成员的权益，受害人或管理员有权申请让该成员离群，若表决通过，则该成员必须离群。
+ </p>
+ <p class="pIndent">
+-连续6个月未参加1次群打球活动及1次群聚餐活动，则自动离群。
++连续6个月未参加1次群打球活动及1次群聚餐活动，则自动离群。以正月初一为中心的31天，计算自动离群时间时不包含在内。
+ </p>
+ <p class="pIndent">
+ 任何情况下离群，积分赛的积分等将失效，并且一年内不允许再次申请加入。
+</pre>
+
+<p>
+<a name="1.2.0">版本1.2.0的修订</a>：
+</p>
+<pre lang="diff" line="1">
+commit b5371e5dba37c6fb1844afd12c3e3f6fce472110
+Author: newnuy <newnuy_7_newnuy.com>
+Date:   Sat May 12 23:05:59 2012 +0800
+
+    加入暂离制度
+
+diff --git a/constitution.tex b/constitution.tex
+index cd508f2..728afb5 100644
+--- a/constitution.tex
++++ b/constitution.tex
+@@ -51,7 +51,7 @@
+ \linespread{1.3}
+ 
+ 
+-\title{深圳~B-USTC~爱乒群约定~1.1.1}
++\title{深圳~B-USTC~爱乒群约定~1.2.0}
+ \author{\CK 群管理员组拟，全体群成员表决通过}
+ \date{\CK 2011年11月11日开始生效\\2012年05月12日最后修改}                                           % Activate to display a given date or no date
+ 
+@@ -137,6 +137,17 @@
+ \par 我们的讨论平台是深圳~B-USTC~爱乒群，正式通知的途径是邮件列表；
+ 不使用~QQ~的球友，可以只加入邮件列表。
+ 
++\section{\CW 暂离}
++\par 如果有连续较长时间不能参加群活动，可以申请暂离。
++暂离状态下不会自动离群。
++\par 群成员最多可以申请~2~次暂离，每次不超过~12~个月，
++总计不超过~18~个月。在暂离状态下参加群活动，则暂离状态自动终止，
++并且按申请的时间记录。
++\par 允许申请暂离的原因不作列举，但不接受家庭原因、加班原因、
++与其它活动冲突的原因。
++\par 群成员向邮件列表提交申请邮件，写明申请暂离的原因和时间，
++由其他群成员讨论决定是否同意。
++
+ \section{\CW 退出}
+ \par 群成员有随时退出的自由，但建议退出前在群内讲明缘由，
+ 群内球友将组织一次告别赛。
+</pre>
+
+<p>
+<a name="1.1.0">版本1.1.0的修订</a>：
+</p>
+<pre lang="diff" line="1">
+commit 9861588fc9b90fa73d5cdfdca33a7fec5a6d466d
+Author: newnuy <newnuy_7_gmail.com>
+Date:   Wed Nov 30 12:12:48 2011 +0800
+
+    修改加入、推荐、自动离群的条件
+
+diff --git a/constitution.tex b/constitution.tex
+index 7a2206e..61087d6 100644
+--- a/constitution.tex
++++ b/constitution.tex
+@@ -51,9 +51,9 @@
+ \linespread{1.3}
+ 
+ 
+-\title{深圳~B-USTC~爱乒群约定~1.0.4}
++\title{深圳~B-USTC~爱乒群约定~1.1.0}
+ \author{\CK 群管理员组拟，全体群成员表决通过}
+-\date{\CK 2011年11月11日开始生效\\2011年11月13日最后修改}                                           % Activate to display a given date or no date
++\date{\CK 2011年11月11日开始生效\\2011年11月30日最后修改}                                           % Activate to display a given date or no date
+ 
+ \begin{document}
+ \CW
+@@ -94,7 +94,7 @@
+ \par 任何群成员都有义务尽快回复其他成员召集打球的统计。
+ \par 群内发言用语文明，不发布广告、色情、暴力、反动等内容。
+ 推荐器材、球馆、聚餐饭店不算广告。
+-\par 任意连续~6~个月必须参加一次群活动。
++\par 任意连续~6~个月必须参加~1~次群打球活动和~1~次群聚餐活动。
+ \par 遵守群活动的相关规则。
+ 
+ \section{\CW 费用}
+@@ -127,8 +127,13 @@
+ \par 另外，为利于团体活动的和谐开展，尊重他人和信守诺言的品质是必须的。
+ 
+ \section{\CW 加入}
+-\par 认可以上内容，参加群活动累计达~2~次，由一位群成员作介绍，
++\par 认可以上内容，参加过~2~次群打球活动及~1~次群聚餐活动，由一位群成员推荐，
+ 经各位群成员讨论通过并经群管理员组认可，则可以加入我们。
++\par 群成员在一个半年（阳历，下同）内参加~5~次群打球活动及~3~次群聚餐活动，
++可在下一个半年内获得~1~枚有效期半年的邀请码；
++邀请码可以赠予同一个半年内有邀请码的群成员；
++一枚邀请码可以推荐一位新成员，如果新成员未能成功入群，
++该邀请码也会被使用掉。
+ \par 我们的讨论平台是深圳~B-USTC~爱乒群，正式通知的途径是邮件列表；
+ 不使用~QQ~的球友，可以只加入邮件列表。
+ 
+@@ -137,7 +142,7 @@
+ 群内球友将组织一次告别赛。
+ \par 若出现严重或多次违反群约定，或损害其他群成员的权益，
+ 受害人或管理员有权申请让该成员离群，若表决通过，则该成员必须离群。
+-\par 连续~6~个月未参加群活动，则自动离群。
++\par 连续~6~个月未参加~1~次群打球活动及~1~次群聚餐活动，则自动离群。
+ \par 任何情况下离群，积分赛的积分等将失效，
+ 并且一年内不允许再次申请加入。
+ \par 退出群则自动退出邮件列表；退出邮件列表则自动退出群。
+</pre>

@@ -203,7 +203,7 @@ table {
 
 table th,
 table td {
-        font-size:14px;
+        font-size:12px;
 	padding:6px 0;
 	border:#CCC 1px solid;
 }
@@ -216,8 +216,8 @@ table caption {
 
 table th {
 	background:#EEE;
-        font-size:18px;
-        line-height:20px;
+        font-size:16px;
+        line-height:18px;
 /*
 	font-weight:bold;
 */

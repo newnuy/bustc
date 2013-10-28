@@ -1,0 +1,5 @@
+1. 下载 phpbb3.0.11_zh_phpbbchina.zip ；
+2. 安装路径 http://newnuy.com/phpbb_bustc/ ；
+3. 数据库类型 MySQL ，名称 newnuyco_data5 ；
+4. 采用默认设置；
+5. 安装完成后，删除安装路径下的 install 目录。

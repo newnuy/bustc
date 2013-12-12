@@ -1,0 +1,9 @@
+[风格][图片组][编辑]
+选择 bustc_logo.gif ，当然需先通过ssh上传该图片到 /styles/saphic/imageset/
+
+[风格][模板][编辑]
+模板文件 overall_header.html 作如下修改：
+<!--
+                                <h1>{SITENAME}</h1>
+                                <p>{SITE_DESCRIPTION}</p>
+-->

@@ -7,3 +7,7 @@
                                 <h1>{SITENAME}</h1>
                                 <p>{SITE_DESCRIPTION}</p>
 -->
+
+[风格][图片组][编辑]
+先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
+再刷新对应图片的尺寸。

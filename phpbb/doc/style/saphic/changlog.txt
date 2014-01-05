@@ -8,6 +8,11 @@
                                 <p>{SITE_DESCRIPTION}</p>
 -->
 
+[风格][风格主题][编辑]
+在 css 中的 .forabg 类中作如下修改：
+        margin-top: 15px;
+        margin-bottom: 10px;
+
 [风格][图片组][编辑]
 先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
 再刷新对应图片的尺寸。

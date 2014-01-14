@@ -3,3 +3,6 @@
 3. 数据库类型 MySQL ，名称 newnuyco_data5 ；
 4. 采用默认设置；
 5. 安装完成后，删除安装路径下的 install 目录。
+
+1. 依文档安装 automod-1.0.2.zip ；
+2. 安装完成后，删除论坛根目录下的 install 目录。

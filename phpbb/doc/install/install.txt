@@ -6,3 +6,6 @@
 
 1. 依文档安装 automod-1.0.2.zip ；
 2. 安装完成后，删除论坛根目录下的 install 目录。
+
+1. 利用 automod 安装 syntax_highlighter_3 ；
+2. 增加一组 bbcode 。

@@ -9,3 +9,6 @@
 
 1. 利用 automod 安装 syntax_highlighter_3 ；
 2. 增加一组 bbcode 。
+
+1. 利用 automod 安装 syntax_highlighting_0.4.1 ；
+2. 增加一组 bbcode 。

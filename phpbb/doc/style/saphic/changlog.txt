@@ -22,6 +22,15 @@ table th, table td {
         border:#AAA 1px solid;
 }
 
+[风格][风格主题][编辑]
+在 css 中作如下修改：
+.postlink {
+        text-decoration: none;
+        color: #d2d2d2;
+/*      border-bottom: 1px solid #d2d2d2; */
+        padding-bottom: 0;
+}
+
 [风格][图片组][编辑]
 先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
 再刷新对应图片的尺寸。

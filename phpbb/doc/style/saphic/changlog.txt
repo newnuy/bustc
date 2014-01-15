@@ -13,6 +13,15 @@
         margin-top: 15px;
         margin-bottom: 10px;
 
+[风格][风格主题][编辑]
+在 css 中增加：
+table {
+        border-collapse:collapse;
+}
+table th, table td {
+        border:#AAA 1px solid;
+}
+
 [风格][图片组][编辑]
 先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
 再刷新对应图片的尺寸。

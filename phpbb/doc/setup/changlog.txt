@@ -46,6 +46,29 @@
 查看在线时间跨度: 60
 
 
+[帖子][BBCode]
+[ta]{TEXT}[/ta]  <table>{TEXT}</table>
+[caption]{TEXT}[/caption]  <caption>{TEXT}</caption>
+[tr]{TEXT}[/tr]  <tr>{TEXT}</tr>
+[tro]{TEXT}[/tro]  <tr onmouseover="this.bgColor='#CCC'" onmouseout="this.bgColor='transparent'">{TEXT}</tr>
+[th]{TEXT}[/th]  <th>{TEXT}</th>
+[th={NUMBER}]{TEXT}[/th]  <th width="{NUMBER}px">{TEXT}</th>
+[thl]{TEXT}[/thl]  <th style="text-align:left;">{TEXT}</th>
+[thc]{TEXT}[/thc]  <th style="text-align:center;">{TEXT}</th>
+[thr]{TEXT}[/thr]  <th style="text-align:right;">{TEXT}</th>
+[thl={NUMBER}]{TEXT}[/thl]  <th width="{NUMBER}px" style="text-align:left;">{TEXT}</th>
+[thc={NUMBER}]{TEXT}[/thc]  <th width="{NUMBER}px" style="text-align:center;">{TEXT}</th>
+[thr={NUMBER}]{TEXT}[/thr]  <th width="{NUMBER}px" style="text-align:right;">{TEXT}</th>
+[td]{TEXT}[/td]  <td>{TEXT}</td>
+[td={NUMBER}]{TEXT}[/td]  <td width="{NUMBER}px">{TEXT}</td>
+[tdl]{TEXT}[/tdl]  <td style="text-align:left;">{TEXT}</td>
+[tdc]{TEXT}[/tdc]  <td style="text-align:center;">{TEXT}</td>
+[tdr]{TEXT}[/tdr]  <td style="text-align:right;">{TEXT}</td>
+[tdl={NUMBER}]{TEXT}[/tdl]  <td width="{NUMBER}px" style="text-align:left;">{TEXT}</td>
+[tdc={NUMBER}]{TEXT}[/tdc]  <td width="{NUMBER}px" style="text-align:center;">{TEXT}</td>
+[tdr={NUMBER}]{TEXT}[/tdr]  <td width="{NUMBER}px" style="text-align:right;">{TEXT}</td>
+
+
 [用户和组][管理等级]
 先把图片放到 /images/ranks/ 目录下
 rank_admin  网站管理员

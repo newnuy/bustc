@@ -31,6 +31,15 @@ table th, table td {
         padding-bottom: 0;
 }
 
+[风格][风格主题][编辑]
+在 css 中作如下修改：
+.attach-image {
+        margin: 3px 0;
+        width: 100%;
+/*      max-height: 350px;  */
+        overflow: auto;
+}
+
 [风格][图片组][编辑]
 先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
 再刷新对应图片的尺寸。

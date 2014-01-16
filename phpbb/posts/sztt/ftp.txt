@@ -1,0 +1,70 @@
+% title: [官方] B-USTC圈子・深圳乒乓・Ftp
+
+[size=150]内容包含：[/size]
+[list]
+[*]“B-USTC圈子・深圳乒乓”内部比赛的照片
+[*]“B-USTC圈子・深圳乒乓”内部不定期活动的照片
+[*]乒乓球比赛、教学、训练的一些视频
+[*]USTC校内比赛的一些视频
+[*]根目录下的upload目录欢迎上传
+[/list]
+
+[size=150]特殊设置：[/size]
+[list]
+[*]不支持命令行工具登录，如lftp
+[*]编码请设置为uft-8
+[/list]
+
+[size=150]账号信息：[/size]
+[code]
+server    newnuy.com  or  ftp://newnuy.com
+username  b-ustc@newnuy.com
+password  ******  (见本版实名认证通过后的站内短信)
+port      21
+[/code]
+
+[size=150]内容概览：[/size]
+[code]
+.
+├── photo
+│   ├── 2012-03-03_WuTongShan
+│   │   └── by_YunWen
+│   ├── 2012-07-14_QingYuan
+│   │   └── by_YunWen
+│   ├── 2012-12-23_BNY2012
+│   │   ├── by_GuJing
+│   │   └── by_HuChen
+│   ├── 2013-04-20_NanShan
+│   │   └── by_YunWen
+│   ├── 2013-09-14_BustcVsSzu
+│   │   └── by_YunWen
+│   └── 2013-12-15_BNY2013
+│       └── by_GuJing
+├── upload(use_English_name)
+│   ├── avatar
+│   └── inception
+├── video_bustc
+│   └── 2013-09-14_BustcVsSzu
+│       └── by_YunWen
+└── video_old
+    ├── 其它
+    ├── 教学
+    │   ├── 其它
+    │   ├── 发球
+    │   ├── 多尼克教学片
+    │   ├── 学打乒乓球
+    │   ├── 打好乒乓球
+    │   └── 蝴蝶教学片
+    └── 比赛
+        ├── 其它赛事
+        ├── 校内赛事
+        └── 著名赛事
+[/code]
+
+[size=150]图文教程：[/size]
+[url=https://filezilla-project.org/download.php?type=client]点此[/url]下载强大的开源ftp软件FileZilla(Windows/Linux/OS X)
+运行软件后，菜单->文件->站点管理器，添加按下图设置的新站点
+[attachment=1]ftp001.jpg[/attachment]
+并按下图设置字符集强制为utf-8
+[attachment=0]ftp002.jpg[/attachment]
+今后从站点管理器连接此站点即可

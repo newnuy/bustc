@@ -64,6 +64,8 @@
 [tdl]{TEXT}[/tdl]  <td style="text-align:left;">{TEXT}</td>
 [tdc]{TEXT}[/tdc]  <td style="text-align:center;">{TEXT}</td>
 [tdr]{TEXT}[/tdr]  <td style="text-align:right;">{TEXT}</td>
+[tdca]{TEXT}[/tdca]  <td style="text-align:center;font-size:75%;">{TEXT}</td>
+[tdra]{TEXT}[/tdra]  <td style="text-align:right;font-size:75%;">{TEXT}</td>
 [tdl={NUMBER}]{TEXT}[/tdl]  <td width="{NUMBER}px" style="text-align:left;">{TEXT}</td>
 [tdc={NUMBER}]{TEXT}[/tdc]  <td width="{NUMBER}px" style="text-align:center;">{TEXT}</td>
 [tdr={NUMBER}]{TEXT}[/tdr]  <td width="{NUMBER}px" style="text-align:right;">{TEXT}</td>

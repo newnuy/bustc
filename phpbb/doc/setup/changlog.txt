@@ -70,6 +70,7 @@
 [tdc={NUMBER}]{TEXT}[/tdc]  <td width="{NUMBER}px" style="text-align:center;">{TEXT}</td>
 [tdr={NUMBER}]{TEXT}[/tdr]  <td width="{NUMBER}px" style="text-align:right;">{TEXT}</td>
 [br][/br]  <br />
+[cm]{TEXT}[/cm]  <!-- -->
 
 
 [用户和组][管理等级]

@@ -1,0 +1,207 @@
+[cm] title: [官方] 本站使用者手册 [/cm]
+
+[size=150]一些常见问题[/size]
+
+Q: 为什么本站的界面及操作与常见的论坛不太一样？
+A: 国内论坛大多使用的是Discuz!系列建站，本站使用的是phpBB。
+
+Q: 本站的功能似乎不如Discuz!论坛要丰富？
+A: 是的。我们的目标是一个拥有单纯氛围的社区，而不是花哨、嘈杂的社区。优美和简约的phpBB无疑是最佳选择之一，并且phpBB在国外的风行也使其拥有广泛的技术支持。
+
+Q: 论坛的使用过程中有疑问或遇到bug，该如何解决？
+A: 阅读本手册和利用搜索引擎，如果仍未解决，请到 [系统开发]版 提问。
+
+Q: 论坛首页能否添加最新发表/回复/热门主题的模块？
+A: 在版面列表上方有这些功能的文字链接。将这些内容在首页上列出，会降低页面的加载速度，且一部分用户并不愿意看到自己无兴趣的主题。如果一个功能有利也有弊，我们选择不实现它。
+
+Q: 版面权限和私人短信权限是如何设定的？
+A: 大多数版面注册即可发帖，部分版面需要实名认证。发帖数达到1个，即获得私信的权限。
+
+Q: 如果及时获取特定版面或主题的更新？
+A: 在版面页面或主题页面下方，有“订阅”按钮，订阅后，更新即有email通知。
+
+Q: 私信编辑界面，如何添加收件人？
+A: 点“查找用户”，勾选ID，再点“选择已标记”，再点“添加”，才算成功添加了收件人。
+
+Q: 发帖的草稿功能如何使用？
+A: 保存草稿后，下次发帖时可选择“导入草稿”。但要注意有如下限制，若保存主题帖的草稿，则同版面发主题帖时才能导入该草稿；若保存回复帖的草稿，则同版面回复之前草稿回复的主题帖、或同版面发主题帖时，才能导入该草稿。
+
+
+[size=150]关于BBCode的问题[/size]
+
+Q: 什么是BBCode？
+A: 发帖或发私信时，文本框上方的格式按钮，点按后呼出的控制字串，就是BBCode。除了有按钮的这些，还有一些隐藏的BBCode。
+
+Q: 为什么要用BBCode？
+A: 大多数帖子纯文本即可，但有时也需要一些格式来使内容清晰易读。开放html会引起严重的安全漏洞，故而对一些常见的html格式进行封装，形成一组BBCode代码。
+
+Q: BBCode标签支持嵌套使用吗？
+A: 一般来说是支持的，比如同时设置字号、颜色、超链接的需求一定是可以满足的。
+
+Q: 超链接功能如何实现？
+A: 使用URL标签即可，即
+[code][url]http://bustc.com[/url][/code]的效果为 [url]http://bustc.com[/url] 。
+如果不想让地址显示出来，可以使用一个隐藏的URL=标签，即
+[code][url=http://bustc.com]B-USTC圈子[/url][/code]的效果为 [url=http://bustc.com]B-USTC圈子[/url] 。
+
+Q: 代码或等宽环境如何实现？
+A: 使用Code标签即可。
+
+Q: 列表环境如何实现？
+A: 列表分为无序列表和有序列表，分别通过List和List=标签实现。
+[code]
+[list]
+[*]项1
+[*]项2
+[/list]
+[/code]实现了效果
+[list]
+[*]项1
+[*]项2
+[/list]
+而
+[code]
+[list=1]
+[*]项1
+[*]项2
+[/list]
+[/code]实现了效果
+[list=1]
+[*]项1
+[*]项2
+[/list]
+
+Q: 颜色标签能否使用不在颜色表中的颜色？
+A: 可以的，只要颜色代码符合规范，比如可以使用
+[code][color=#4169E1]皇家蓝[/color][/code]来实现 [color=#4169E1]皇家蓝[/color] 。
+
+Q: 有实现注释功能的标签吗？
+A: 有时复杂的文本需要添加注释以方便维护，本站实现了注释标签cm。
+[code][cm]这是注释[/cm][/code]会在解析时变成一组html的注释符，而忽略掉注释文本，如下：
+[code]<!-- -->[/code]当然，帖子中什么也不会显示出来。
+
+
+[size=150]Table标签专题[/size]
+
+Q: Table标签为何要单独列出？
+A: 大多数帖子不必用到表格，但版主和活动举办者，有可能需要使用表格来罗列信息。由于其格式的复杂性，本站实现了一组标签来支持这一功能，也需要多个例子才能说明这些标签的使用。
+
+Q: 画一个九宫格的表格？
+A: 先了解ta tr td标签分别支持表格、表格行、单元格的功能，则
+[code]
+[ta]
+[tr] [td]2[/td] [td]9[/td] [td]4[/td] [/tr]
+[tr] [td]7[/td] [td]5[/td] [td]3[/td] [/tr]
+[tr] [td]6[/td] [td]1[/td] [td]8[/td] [/tr]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[tr] [td]2[/td] [td]9[/td] [td]4[/td] [/tr]
+[tr] [td]7[/td] [td]5[/td] [td]3[/td] [/tr]
+[tr] [td]6[/td] [td]1[/td] [td]8[/td] [/tr]
+[/ta]
+
+Q: 以上九宫格，单元格太窄了，能否拓宽一些？
+A: td标签的加强版本td=，可以支持以像素为单位的宽度值，则我们如下实现一个四阶幻方
+[code]
+[ta]
+[tr] [td=30]12[/td] [td=30]13[/td] [td=30]1[/td] [td=30]8[/td] [/tr]
+[tr] [td]6[/td] [td]3[/td] [td]15[/td] [td]10[/td] [/tr]
+[tr] [td]7[/td] [td]2[/td] [td]14[/td] [td]11[/td] [/tr]
+[tr] [td]9[/td] [td]16[/td] [td]4[/td] [td]5[/td] [/tr]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[tr] [td=30]12[/td] [td=30]13[/td] [td=30]1[/td] [td=30]8[/td] [/tr]
+[tr] [td]6[/td] [td]3[/td] [td]15[/td] [td]10[/td] [/tr]
+[tr] [td]7[/td] [td]2[/td] [td]14[/td] [td]11[/td] [/tr]
+[tr] [td]9[/td] [td]16[/td] [td]4[/td] [td]5[/td] [/tr]
+[/ta]
+注意到只要有每行只需一列指定宽度即可。
+
+Q: 以上四阶幻方中，数字能否右对齐，这样比较美观？
+A: td td=标签各自的加强版本tdX tdX=，通过X的取值l c r，分别实现了左、中、右对齐，则此处可以使用tdr=和tdr来实现
+[code]
+[ta]
+[tr] [tdr=30]12[/tdr] [tdr=30]13[/tdr] [tdr=30]1[/tdr] [tdr=30]8[/tdr] [/tr]
+[tr] [tdr]6[/tdr] [tdr]3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tr]
+[tr] [tdr]7[/tdr] [tdr]2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tr]
+[tr] [tdr]9[/tdr] [tdr]16[/tdr] [tdr]4[/tdr] [tdr]5[/tdr] [/tr]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[tr] [tdr=30]12[/tdr] [tdr=30]13[/tdr] [tdr=30]1[/tdr] [tdr=30]8[/tdr] [/tr]
+[tr] [tdr]6[/tdr] [tdr]3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tr]
+[tr] [tdr]7[/tdr] [tdr]2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tr]
+[tr] [tdr]9[/tdr] [tdr]16[/tdr] [tdr]4[/tdr] [tdr]5[/tdr] [/tr]
+[/ta]
+
+Q: 需要着重表示的标题行和标题列，如何实现？
+A: th标签相当于着重表示的td标签，td标签的所有加强版本，th标签也有对应版本
+[code]
+[ta]
+[tr] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tr]
+[tr] [thc]行一[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[/tdr] [tdr] 8[/tdr] [/tr]
+[tr] [thc]行二[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tr]
+[tr] [thc]行三[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tr]
+[tr] [thc]行四[/thc] [tdr] 9[/tdr] [tdr]16[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tr]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[tr] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tr]
+[tr] [thc]行1[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[/tdr] [tdr] 8[/tdr] [/tr]
+[tr] [thc]行2[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tr]
+[tr] [thc]行3[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tr]
+[tr] [thc]行4[/thc] [tdr] 9[/tdr] [tdr]16[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tr]
+[/ta]
+
+Q: 表格比较大时，容易看错行，是否可以实现行指向变色效果？
+A: tr标签的加强版本tro，实现了此效果
+[code]
+[ta]
+[tro] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tro]
+[tro] [thc]行一[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[/tdr] [tdr] 8[/tdr] [/tro]
+[tro] [thc]行二[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tro]
+[tro] [thc]行三[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tro]
+[tro] [thc]行四[/thc] [tdr] 9[/tdr] [tdr]16[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tro]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[tro] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tro]
+[tro] [thc]行1[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[/tdr] [tdr] 8[/tdr] [/tro]
+[tro] [thc]行2[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tro]
+[tro] [thc]行3[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tro]
+[tro] [thc]行4[/thc] [tdr] 9[/tdr] [tdr]16[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tro]
+[/ta]
+
+Q: 表格标题功能？
+A: 使用caption标签，和下一个例子一起。
+
+Q: 单元格内能否换行？
+A: 我们实现了一个通用的br标签，来强制换行
+[code]
+[ta]
+[caption]四阶幻方[/caption]
+[tro] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tro]
+[tro] [thc]行1[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[br][/br]min[/tdr] [tdr] 8[/tdr] [/tro]
+[tro] [thc]行2[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tro]
+[tro] [thc]行3[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tro]
+[tro] [thc]行4[/thc] [tdr] 9[/tdr] [tdr]16[br][/br]max[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tro]
+[/ta]
+[/code]可实现效果如下
+[ta]
+[caption]四阶幻方[/caption]
+[tro] [thc=30] [/thc] [thc=30]列1[/thc] [thc=30]列2[/thc] [thc=30]列3[/thc] [thc=30]列4[/thc] [/tro]
+[tro] [thc]行1[/thc] [tdr]12[/tdr] [tdr]13[/tdr] [tdr] 1[br][/br]min[/tdr] [tdr] 8[/tdr] [/tro]
+[tro] [thc]行2[/thc] [tdr] 6[/tdr] [tdr] 3[/tdr] [tdr]15[/tdr] [tdr]10[/tdr] [/tro]
+[tro] [thc]行3[/thc] [tdr] 7[/tdr] [tdr] 2[/tdr] [tdr]14[/tdr] [tdr]11[/tdr] [/tro]
+[tro] [thc]行4[/thc] [tdr] 9[/tdr] [tdr]16[br][/br]max[/tdr] [tdr] 4[/tdr] [tdr] 5[/tdr] [/tro]
+[/ta]
+这个效果并不美观，如何改进呢？不妨在其它单元格的数字下方添加一个占位的空格。
+
+Q: 为什么表格上方会有一块空白？
+A: 编辑器把表格标签内的换行符都解析为换行符，而表格内无需换行符，所以就多了一些空白行放在前面。ta标签内不要有换行符即可。我们提供了一个C文件可以删除ta标签内的换行符，运行在shell上。编译和运行的方法
+[code]
+$ cc ./del_br.c -o del_br
+$ ./del_br input_file.txt
+[/code]会在当前目录下生成名为no_br_out.txt的输出文件。

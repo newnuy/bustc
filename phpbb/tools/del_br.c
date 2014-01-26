@@ -8,6 +8,7 @@ int main(int argc, char **argv)
     FILE *fp_src, *fp_des;
     int ch, ch_2;
     bool in_table;
+    bool in_code;
 
     if (argc != 2) {
         printf("error: no input file\n");
@@ -28,23 +29,50 @@ int main(int argc, char **argv)
     }
 
     in_table = false;
+    in_code = false;
     while ((ch = fgetc(fp_src)) != EOF) {
-        if (!(in_table == true && ch == '\n'))
+        if (in_code || !(in_table && ch == '\n'))
             fputc(ch, fp_des);
         if (ch == '[') {
-            if ((ch_2 = ch = fgetc(fp_src)) == 't' && fputc(ch, fp_des)
-                    && (ch = fgetc(fp_src)) == 'a' && fputc(ch, fp_des)
-                    && (ch = fgetc(fp_src)) == ']' && fputc(ch, fp_des))
-                in_table = true;
-            else
+            ch = fgetc(fp_src);
+            if (in_code || !(in_table && ch == '\n'))
                 fputc(ch, fp_des);
-            if (ch_2 == '/') {
-                if ((ch = fgetc(fp_src)) == 't' && fputc(ch, fp_des)
-                        && (ch = fgetc(fp_src)) == 'a' && fputc(ch, fp_des)
+            if (ch == 'c') {
+                if ((ch = fgetc(fp_src)) == 'o' && fputc(ch, fp_des)
+                        && (ch = fgetc(fp_src)) == 'd' && fputc(ch, fp_des)
+                        && (ch = fgetc(fp_src)) == 'e' && fputc(ch, fp_des)
                         && (ch = fgetc(fp_src)) == ']' && fputc(ch, fp_des))
-                    in_table = false;
+                    in_code = true;
                 else
                     fputc(ch, fp_des);
+            }
+            else if (ch == 't') {
+                if ((ch = fgetc(fp_src)) == 'a' && fputc(ch, fp_des)
+                        && (ch = fgetc(fp_src)) == ']' && fputc(ch, fp_des))
+                    in_table = true;
+                else
+                    fputc(ch, fp_des);
+            }
+            else if (ch == '/') {
+                ch = fgetc(fp_src);
+                if (in_code || !(in_table && ch == '\n'))
+                    fputc(ch, fp_des);
+                if (ch == 'c') {
+                    if ((ch = fgetc(fp_src)) == 'o' && fputc(ch, fp_des)
+                            && (ch = fgetc(fp_src)) == 'd' && fputc(ch, fp_des)
+                            && (ch = fgetc(fp_src)) == 'e' && fputc(ch, fp_des)
+                            && (ch = fgetc(fp_src)) == ']' && fputc(ch, fp_des))
+                        in_code = false;
+                    else
+                        fputc(ch, fp_des);
+                }
+                else if (ch == 't') {
+                    if ((ch = fgetc(fp_src)) == 'a' && fputc(ch, fp_des)
+                            && (ch = fgetc(fp_src)) == ']' && fputc(ch, fp_des))
+                        in_table = false;
+                    else
+                        fputc(ch, fp_des);
+                }
             }
         }
     }

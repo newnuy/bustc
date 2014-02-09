@@ -8,6 +8,19 @@
                                 <p>{SITE_DESCRIPTION}</p>
 -->
 
+[风格][模板][编辑]
+模板文件 overall_footer.html 中的：
+<div class="copyright">{CREDIT_LINE}<br />Theme created by <a href="http://www.stylerbb.net/">Sopel</a>
+                <!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
+                <!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+                <!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+        </div>
+改为：
+<div class="copyright">© 2011-2014　B-USTC圈子　All Rights Reserved.
+                <!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+                <!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+</div>
+
 [风格][风格主题][编辑]
 在 css 中的 .forabg 类中作如下修改：
         margin-top: 15px;

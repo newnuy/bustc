@@ -1,5 +1,15 @@
 [cm] title: [官方] B-USTC圈子・深圳乒乓・账目表2014 [/cm]
 
+[color=red]充值方法[/color]
+[list]
+[*] 方式一：支付宝转账至"newnuy@gmail.com"，并备注姓名。推荐。
+复制以下地址至浏览器，无需填写收款账号和金额
+[code]
+https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=newnuy@gmail.com&payAmount=200&title=name&memo=
+[/code]
+[*] 方式二：活动时现金充值。若出差错则无记录可查，不推荐。
+[/list]
+
 “入”指账户充值，“球”“餐”“另”指该账户打球、聚餐、其它支出，“余”指该账户余额。非群成员参加活动，相关费用挂在介绍前来的群成员名下，或者挂在账目负责人名下。
 当某成员已离群时，则名字以[color=#4169E1]皇家蓝[/color]显示。当某成员处在暂离状态时，会以[color=#AAA]灰色[/color]显示。若某成员拥有邀请码，则余额以[color=#4169E1]皇家蓝[/color]显示。 
 

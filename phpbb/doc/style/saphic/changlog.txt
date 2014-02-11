@@ -27,6 +27,11 @@
         margin-bottom: 10px;
 
 [风格][风格主题][编辑]
+在 css 中的 .forumbg 类中作如下修改：
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+[风格][风格主题][编辑]
 在 css 中增加：
 table {
         border-collapse:collapse;

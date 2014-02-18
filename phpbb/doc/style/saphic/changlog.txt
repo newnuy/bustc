@@ -59,5 +59,9 @@ table th, table td {
 }
 
 [风格][图片组][编辑]
-先通过ssh上传 zh_cmn_hans 图片组到 /styles/prosilver/imageset/ ，
+先通过ssh上传 zh_cmn_hans 图片组到 /styles/saphic/imageset/ ，
+再刷新对应图片的尺寸。
+
+[风格][图片组][编辑]
+先通过ssh上传 hot_v1 图片组的图片到 /styles/saphic/imageset/ ，
 再刷新对应图片的尺寸。

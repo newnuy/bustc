@@ -2,16 +2,17 @@
 
 [size=150]最新战绩表[/size]
 [code]
-更新至 02.22
+更新至 03.01
  No.  　姓名  性别    胜    负      胜率     积分    排名    级别
-[ 4]  岳玉涛  　男　   7　   1　　 87.5%　　 1190　　   1　　   A
-[ 1]  王中飞  　男　   6　   2　　 75.0%　　 1150　　   2　　   A
-[ 3]  邵键林  　男　   4　   0　　100.0%　　 1120　　   3　　   B
-[ 7]  杨冬雷  　男　   2　   2　　 50.0%　　 1020　　   4　　   B
-[ 6]  林　立  　男　   2　   2　　 50.0%　　 1020　　   4　　   B
-[ 2]  恽　文  　男　   0　   4　　  0.0%　　  920　　   6　　   C
-[ 5]  张吉帅  　男　   1　   7　　 12.5%　　  900　　   7　　   D
-[ 8]  林德苗  　男　   0　   4　　  0.0%　　  760　　   8　　   D
+ [ 4]  岳玉涛  　男　  10　   2　　 83.3%　　 1260　　   1　　   A
+ [ 3]  邵键林  　男　   7　   1　　 87.5%　　 1200　　   2　　   A
+ [ 1]  王中飞  　男　   8　   4　　 66.7%　　 1170　　   3　　   B
+ [ 7]  杨冬雷  　男　   4　   4　　 50.0%　　 1050　　   4　　   B
+ [ 9]  符传仁  　男　   2　   2　　 50.0%　　 1030　　   5　　   C
+ [ 6]  林　立  　男　   2　   2　　 50.0%　　 1020　　   6　　   C
+ [ 2]  恽　文  　男　   0　   4　　  0.0%　　  920　　   7　　   D
+ [ 5]  张吉帅  　男　   1　  11　　  8.3%　　  820　　   8　　   D
+ [ 8]  林德苗  　男　   0　   4　　  0.0%　　  760　　   9　　   D
 [/code]
 
 [size=150]每周战绩表[/size]
@@ -19,7 +20,8 @@
 [tr] [thc=50]周次[/thc] [thc=50]日期[/thc] [thc=50]人数[/thc] [thc=120]冠军[/thc] [thc=120]弃权[/thc] [thc=80]详细[/thc] [thc=50]负责人[/thc] [/tr]
 [tro] [tdr] 1[/tdr] [tdr] 02.15[/tdr] [tdr]  6[/tdr] [tdr] 邵键林, 岳玉涛[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=36]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [tro] [tdr] 2[/tdr] [tdr] 02.22[/tdr] [tdr]  5[/tdr] [tdr] 王中飞[/tdr] [tdr] 林德苗[/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=42]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
-[tro] [tdr] 2[/tdr] [tdr] 03.01[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=46]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
+[tro] [tdr] 3[/tdr] [tdr] 03.01[/tdr] [tdr]  6[/tdr] [tdr] 邵键林[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=46]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
+[tro] [tdr] 4[/tdr] [tdr] 03.08[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=50]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
 [/ta]
 
 [size=150]规则[/size]

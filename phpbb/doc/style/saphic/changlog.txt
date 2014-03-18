@@ -63,5 +63,5 @@ table th, table td {
 再刷新对应图片的尺寸。
 
 [风格][图片组][编辑]
-先通过ssh上传 hot_v1 图片组的图片到 /styles/saphic/imageset/ ，
+先通过ssh上传 hot_v2 图片组的图片到 /styles/saphic/imageset/ ，
 再刷新对应图片的尺寸。

@@ -2,19 +2,20 @@
 
 [size=150]最新战绩表[/size]
 [code]
-更新至 06.31
+更新至 06.07
  No.  　姓名  性别    胜    负      胜率     积分    排名    级别
 [ 3]  邵键林  　男　  28　   6　　 82.4%　　 1730　　   1　　   A
 [ 1]  王中飞  　男　  22　  13　　 62.9%　　 1430　　   2　　   A
-[ 4]  岳玉涛  　男　  15　   8　　 65.2%　　 1290　　   3　　   B
+[ 4]  岳玉涛  　男　  15　   8　　 65.2%　　 1290　　   3　　   A
 [ 9]  符传仁  　男　  12　   7　　 63.2%　　 1270　　   4　　   B
-[ 6]  林　立  　男　   7　   5　　 58.3%　　 1140　　   5　　   B
-[11]  王　波  　男　   5　   3　　 62.5%　　 1090　　   6　　   C
-[ 2]  恽　文  　男　   9　  18　　 33.3%　　 1050　　   7　　   C
-[ 7]  杨冬雷  　男　   9　  15　　 37.5%　　 1040　　   8　　   C
-[10]  苏延东  　男　   6　  10　　 37.5%　　 1010　　   9　　   D
+[ 6]  林　立  　男　   9　   7　　 56.2%　　 1160　　   5　　   B
+[ 2]  恽　文  　男　  12　  19　　 38.7%　　 1130　　   6　　   B
+[ 7]  杨冬雷  　男　   9　  15　　 37.5%　　 1040　　   7　　   C
+[12]  王玉珩  　男　   2　   2　　 50.0%　　 1020　　   8　　   C
+[10]  苏延东  　男　   6　  10　　 37.5%　　 1010　　   9　　   C
 [ 8]  林德苗  　男　   3　   5　　 37.5%　　  870　　  10　　   D
-[ 5]  张吉帅  　男　   6　  32　　 15.8%　　  590　　  11　　   D
+[11]  王　波  　男　   5　   7　　 41.7%　　  850　　  11　　   D
+[ 5]  张吉帅  　男　   9　  33　　 21.4%　　  700　　  12　　   D
 [/code]
 
 [size=150]每周战绩表[/size]
@@ -32,7 +33,8 @@
 [tro] [tdr]10[/tdr] [tdr] 05.10[/tdr] [tdr]  5[/tdr] [tdr] 邵键林[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=61]点此前往[/url][/tdr] [tdr] 杨冬雷[/tdr] [/tro]
 [tro] [tdr]11[/tdr] [tdr] 05.24[/tdr] [tdr]  5[/tdr] [tdr] 林　立[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=63]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [tro] [tdr]12[/tdr] [tdr] 05.31[/tdr] [tdr]  7[/tdr] [tdr] 邵键林, 恽　文[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=64]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
-[tro] [tdr]13[/tdr] [tdr] 06.07[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=65]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
+[tro] [tdr]13[/tdr] [tdr] 06.07[/tdr] [tdr]  5[/tdr] [tdr] 张吉帅[/tdr] [tdr] 王　波[/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=65]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
+[tro] [tdr]14[/tdr] [tdr] 06.14[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=66]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [/ta]
 
 [size=150]规则[/size]

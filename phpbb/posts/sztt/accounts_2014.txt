@@ -706,9 +706,9 @@ https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=newnuy@gmail.com&payA
 [tdra] 168.[/tdra]
 [tdra] 祥合餐厅[/tdra]
 [tdra]     [/tdra]
-[tdra]     [/tdra]
-[tdra] [/tdra]
-[tdra]  325.[/tdra]
+[tdra]  20.[/tdra]
+[tdra] 积分赛弃权预扣费[/tdra]
+[tdra]  345.[/tdra]
 [/tro]
 
 [tr]

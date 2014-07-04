@@ -57,6 +57,9 @@ Cookie作用域: bustc.com
 [综合][负载设定]
 查看在线时间跨度: 60
 
+[综合][搜索设定]
+词频阈值: 0%  (须 维护->搜索索引 ，删除重建)
+
 
 [帖子][BBCode]
 [ta]{TEXT}[/ta]  <table>{TEXT}</table>

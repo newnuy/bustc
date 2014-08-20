@@ -2,20 +2,20 @@
 
 [size=150]最新战绩表[/size]
 [code]
-更新至 08.02
+更新至 08.16
  No.  　姓名  性别    胜    负      胜率     积分    排名    级别
-[ 3]  邵键林  　男　  38　   8　　 82.6%　　 1990　　   1　　   A
+[ 3]  邵键林  　男　  40　  10　　 80.0%　　 2010　　   1　　   A
 [ 1]  王中飞  　男　  25　  18　　 58.1%　　 1420　　   2　　   A
-[10]  苏延东  　男　  18　  18　　 50.0%　　 1290　　   3　　   A
-[ 4]  岳玉涛  　男　  18　  13　　 58.1%　　 1280　　   4　　   B
-[ 6]  林　立  　男　  13　  11　　 54.2%　　 1200　　   5　　   B
-[ 9]  符传仁  　男　  12　  11　　 52.2%　　 1190　　   6　　   B
-[ 2]  恽　文  　男　  18　  29　　 38.3%　　 1140　　   7　　   C
+[ 4]  岳玉涛  　男　  21　  14　　 60.0%　　 1370　　   3　　   A
+[10]  苏延东  　男　  20　  20　　 50.0%　　 1310　　   4　　   B
+[ 2]  恽　文  　男　  21　  30　　 41.2%　　 1240　　   5　　   B
+[ 6]  林　立  　男　  13　  11　　 54.2%　　 1200　　   6　　   B
+[ 9]  符传仁  　男　  12　  11　　 52.2%　　 1190　　   7　　   C
 [ 7]  杨冬雷  　男　  13　  19　　 40.6%　　 1120　　   8　　   C
 [ 5]  张吉帅  　男　  21　  41　　 33.9%　　 1120　　   8　　   C
 [12]  王玉珩  　男　   6　   6　　 50.0%　　 1110　　  10　　   D
 [ 8]  林德苗  　男　   7　   5　　 58.3%　　 1050　　  11　　   D
-[13]  秦　伟  　男　   0　   4　　  0.0%　　  920　　  12　　   D
+[13]  秦　伟  　男　   0　   8　　  0.0%　　  840　　  12　　   D
 [11]  王　波  　男　   5　  11　　 31.2%　　  610　　  13　　   D
 [/code]
 
@@ -40,7 +40,8 @@
 [tro] [tdr]16[/tdr] [tdr] 07.12[/tdr] [tdr]  5[/tdr] [tdr] 苏延东[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=76]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [tro] [tdr]17[/tdr] [tdr] 07.26[/tdr] [tdr]  5[/tdr] [tdr] 张吉帅[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=80]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
 [tro] [tdr]18[/tdr] [tdr] 08.02[/tdr] [tdr]  7[/tdr] [tdr] 林德苗[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=81]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
-[tro] [tdr]19[/tdr] [tdr] 08.09[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=82]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
+[tro] [tdr]19[/tdr] [tdr] 08.16[/tdr] [tdr]  5[/tdr] [tdr] 恽　文[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=83]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
+[tro] [tdr]20[/tdr] [tdr] 08.23[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=85]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [/ta]
 
 [size=150]规则[/size]

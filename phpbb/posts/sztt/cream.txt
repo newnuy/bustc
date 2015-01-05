@@ -1,13 +1,10 @@
 [cm] title: 本版精华汇集 [/cm]
 
 [ta]
-[caption][size=150]2014年活动 (筹划中)[/size][/caption]
+[caption][size=150]2014年活动[/size][/caption]
 [tr][thc=200]名称[/thc][thc=120]时间[/thc][thc=80]类型[/thc][thc=120]负责人[/thc][thc=60]状态[/thc][/tr]
-[tro] [tdl][url=http://bustc.com/viewtopic.php?f=4&t=35]全年积分赛[/url][/tdl] [tdr]        每周末[/tdr] [tdr]定期比赛[/tdr] [tdr]恽　文, 张吉帅[/tdr] [tdr]进行中[/tdr] [/tro]
+[tro] [tdl][url=http://bustc.com/viewtopic.php?f=4&t=35]全年积分赛[/url][/tdl] [tdr]        每周末[/tdr] [tdr]定期比赛[/tdr] [tdr]恽　文, 张吉帅[/tdr] [tdr]结束[/tdr] [/tro]
 [tro] [tdl][url=http://bustc.com/viewtopic.php?f=4&t=68]B-USTC/深大友谊赛[/url][/tdl] [tdr]2014年06月21日[/tdr] [tdr]    比赛[/tdr] [tdr]邵键林[/tdr] [tdr]  结束[/tdr] [/tro]
-[tro] [tdl]器材统一购买[/tdl] [tdr]           8月[/tdr] [tdr]补充活动[/tdr] [tdr]恽　文[/tdr] [tdr]筹划中[/tdr] [/tro]
-[tro] [tdl]   BNY -2014[/tdl] [tdr]2014年12月14日[/tdr] [tdr]    比赛[/tdr] [tdr]恽　文[/tdr] [tdr]筹划中[/tdr] [/tro]
-[tro] [tdl]最佳贡献评奖[/tdl] [tdr]2014年12月16日[/tdr] [tdr]补充活动[/tdr] [tdr]恽　文[/tdr] [tdr]筹划中[/tdr] [/tro]
 [/ta]
 
 [ta]
@@ -33,9 +30,10 @@
 [list]
 [*][url=http://bustc.com/viewtopic.php?f=4&t=20]本版约定[/url]
 [*][url=http://bustc.com/viewtopic.php?f=4&t=28]成员表[/url]
-[*][url=http://bustc.com/viewtopic.php?f=4&t=29]账目表2014[/url]
+[*][url=http://bustc.com/viewtopic.php?f=4&t=86]账目表2015[/url]
 [*][url=http://bustc.com/viewtopic.php?f=4&t=32]大事记[/url]
 [*][url=http://bustc.com/viewtopic.php?f=4&t=24]Ftp[/url]
+[*][url=http://bustc.com/viewtopic.php?f=4&t=29]账目表2014[/url]
 [*][url=http://sz.bustc.com/?page_id=2]账目表(截至2013年)[/url]
 [/list]
 

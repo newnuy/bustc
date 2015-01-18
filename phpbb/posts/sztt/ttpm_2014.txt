@@ -4,15 +4,15 @@
 [code]
 更新至 08.30
  No.  　姓名  性别    胜    负      胜率     积分    排名    级别
-[ 3]  邵键林  　男　  42　  11　　 79.2%　　 2050　　   1　　   A
-[ 4]  岳玉涛  　男　  24　  14　　 63.2%　　 1460　　   2　　   A
-[ 1]  王中飞  　男　  25　  18　　 58.1%　　 1420　　   3　　   A
+[ 3]  邵键林  　男　  42　  11　　 79.2%　　 2050　　   1　　   A    1st
+[ 4]  岳玉涛  　男　  24　  14　　 63.2%　　 1460　　   2　　   A    2nd
+[ 1]  王中飞  　男　  25　  18　　 58.1%　　 1420　　   3　　   A    3rd
 [10]  苏延东  　男　  20　  20　　 50.0%　　 1310　　   4　　   B
 [ 2]  恽　文  　男　  22　  32　　 40.7%　　 1230　　   5　　   B
 [ 6]  林　立  　男　  13　  11　　 54.2%　　 1200　　   6　　   B
 [ 9]  符传仁  　男　  12　  11　　 52.2%　　 1190　　   7　　   C
 [ 7]  杨冬雷  　男　  13　  19　　 40.6%　　 1120　　   8　　   C
-[ 5]  张吉帅  　男　  21　  41　　 33.9%　　 1120　　   8　　   C
+[ 5]  张吉帅  　男　  21　  41　　 33.9%　　 1120　　   8　　   C    most
 [12]  王玉珩  　男　   6　   6　　 50.0%　　 1110　　  10　　   D
 [ 8]  林德苗  　男　   7　   5　　 58.3%　　 1050　　  11　　   D
 [13]  秦　伟  　男　   0　  11　　  0.0%　　  780　　  12　　   D
@@ -41,8 +41,7 @@
 [tro] [tdr]17[/tdr] [tdr] 07.26[/tdr] [tdr]  5[/tdr] [tdr] 张吉帅[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=80]点此前往[/url][/tdr] [tdr] 张吉帅[/tdr] [/tro]
 [tro] [tdr]18[/tdr] [tdr] 08.02[/tdr] [tdr]  7[/tdr] [tdr] 林德苗[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=81]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
 [tro] [tdr]19[/tdr] [tdr] 08.16[/tdr] [tdr]  5[/tdr] [tdr] 恽　文[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=83]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
-[tro] [tdr]20[/tdr] [tdr] 08.30[/tdr] [tdr]  4[/tdr] [tdr] 岳玉涛[/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=86]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
-[tro] [tdr]21[/tdr] [tdr] 09.06[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] [url=http://bustc.com/viewtopic.php?f=4&t=87]点此前往[/url][/tdr] [tdr] 恽　文[/tdr] [/tro]
+[tro] [tdr]20[/tdr] [tdr] 08.30[/tdr] [tdr]  4[/tdr] [tdr] 岳玉涛[/tdr] [tdr] [/tdr] [tdr] [/tdr] [tdr] 恽　文[/tdr] [/tro]
 [/ta]
 
 [size=150]规则[/size]
